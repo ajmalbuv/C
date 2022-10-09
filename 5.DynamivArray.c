@@ -3,7 +3,7 @@
 #include <stdlib.h>
 int main()
 {
-    int n, i;
+    int n,i;
     double *data;
     printf("Enter the total number of elements: ");
     scanf("%d",&n);
