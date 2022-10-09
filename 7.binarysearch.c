@@ -1,5 +1,5 @@
 #include <stdio.h>
-void binary_search(int[], int, int, int);
+void binary_search(int[],int lo,int hi,int key);
 int main()
 {
     int key,size,i;
