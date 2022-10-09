@@ -1,5 +1,5 @@
 #include <stdio.h>
-void binary_search(int[],int lo,int hi,int key);
+void binary_search(int list[],int lo,int hi,int key);
 int main()
 {
     int key,size,i;
@@ -28,7 +28,7 @@ void binary_search(int list[],int lo,int hi,int key)
     mid=(lo+hi)/2;
     if (list[mid]==key)
     {
-        printf("Key found\n");
+        printf("Key found at location %d\n",mid+1);
     }
     else if(list[mid]>key)
     {

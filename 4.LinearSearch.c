@@ -21,3 +21,4 @@ int main()
         printf("%d is not present in array.\n", search);
     return 0;
 }
+//EOF

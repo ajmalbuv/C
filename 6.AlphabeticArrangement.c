@@ -15,7 +15,7 @@ int main()
     {
         for(j=i+1;j<n;j++)
         {
-            if (strcmp(str[i],str[j])>0)
+            if(strcmp(str[i],str[j])>0)
             {
                 strcpy(s,str[i]);
                 strcpy(str[i],str[j]);
@@ -30,3 +30,4 @@ int main()
     }
     return 1;
 }
+//EOF
